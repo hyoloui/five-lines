@@ -1,28 +1,31 @@
 # five-lines
 
-In this kata your task is to refactor the code for a small game. When finished it should be easy to add new tile types, or make the key draw as a circle, so we can easily distinguish it from the lock. 
+이 카타에서 여러분의 임무는 작은 게임의 코드를 리팩터링하는 것입니다. 완료되면 새로운 타일 유형을 추가하거나 열쇠를 원으로 그려서 자물쇠와 쉽게 구분할 수 있어야 합니다.
 
-The code already abides by the most common principles "Don't Repeat Yourself", "Keep It Simple, Stupid", and there are only very few magic literals. There are no poorly structured nor deeply nested `if`s.
+이 코드는 이미 가장 일반적인 원칙인 “반복하지 마라”, “단순하게, 멍청하게”를 준수하고 있으며, 마법 리터럴은 거의 없습니다. 구조가 잘못되었거나 깊게 중첩된 'if'도 없습니다.
 
-This is *not* an easy exercise.
+이것은 쉬운 연습이 아닙니다.
 
 # About the Game
-In the game, you are a red square and have to get the box (brown) to the lower right corner. Obstacles include falling stones (blue), walls (gray), and a lock (yellow, right) that can be unlocked with the key (yellow, left). You can push one stone or box at a time, and only if it is not falling. The flux (greenish) holds up boxes and stones but can be 'eaten' by the player. 
+
+게임에서 당신은 빨간색 사각형이며 상자 (갈색)를 오른쪽 아래 모서리로 가져와야합니다. 장애물로는 떨어지는 돌(파란색), 벽(회색), 열쇠(노란색, 오른쪽)로 열 수 있는 자물쇠(노란색, 왼쪽)가 있습니다. 한 번에 하나의 돌이나 상자를 밀 수 있으며, 떨어지지 않는 경우에만 가능합니다. 플럭스(녹색)는 상자와 돌을 고정하지만 플레이어가 '먹어치울' 수 있습니다.
 
 ![Screenshot of the game](game.png)
 
 # How to Build It
-Assuming that you have the Typescript compiler installed: Open a terminal in this directory, then run `tsc`. There should now be a `index.js` file in this directory.
+
+타입스크립트 컴파일러가 설치되어 있다고 가정합니다: 이 디렉토리에서 터미널을 열고 `tsc`를 실행합니다. 이제 이 디렉터리에 `index.js` 파일이 있을 것입니다.
 
 # How to Run It
-To run the game you need to first build it, see above. Then simply open `index.html` in a browser. Use the arrows to move the player.
+
+게임을 실행하려면 먼저 위를 참조하여 빌드해야 합니다. 그런 다음 브라우저에서 `index.html`을 열기만 하면 됩니다. 화살표를 사용하여 플레이어를 이동합니다.
 
 # Thank You!
-If you like this kata please consider giving the repo a star. You might also consider purchasing a copy of my book where I show a simple way to tackle code like this: [Five Lines of Code](https://www.manning.com/books/five-lines-of-code), available through the Manning Early Access Program.
+
+이 카타가 마음에 드신다면 리포지토리에 별을 달아주세요. 이와 같은 코드를 다루는 간단한 방법을 설명하는 제 책을 구입하는 것도 고려해 보세요: [다섯 줄의 코드](https://www.manning.com/books/five-lines-of-code), 매닝 얼리 액세스 프로그램을 통해 이용할 수 있습니다.
 
 [![Five Lines of Code](frontpage.png)](https://www.manning.com/books/five-lines-of-code)
 
-If you have feedback or comments on this repo don't hesitate to write me a message or send me a pull request. 
+이 리포지토리에 대한 피드백이나 의견이 있으시면 주저하지 마시고 메시지를 작성하거나 풀 리퀘스트를 보내주세요.
 
-Thank you for checking it out.
-
+확인해 주셔서 감사합니다.
